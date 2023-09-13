@@ -27,7 +27,7 @@ jobs:
           # base
           base: header, activity, community, repositories, metadata
           repositories_forks: no
-          repositories_affiliations: owner
+          repositories_affiliations: owner, collaborator, organization_member
           repositories_skipped: Powerleech/Powerleech
 
           plugin_discussions: yes
